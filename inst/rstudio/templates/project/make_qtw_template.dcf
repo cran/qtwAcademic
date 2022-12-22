@@ -1,0 +1,10 @@
+Binding: make_qtw_template
+Title: Quarto Website using qtwAcademic templates
+OpenFiles: _quarto.yml, index.qmd
+
+Parameter: template_option
+Widget: SelectInput
+Label: Template
+Fields: Minimal, Personal, Course
+Default: Minimal
+Position: left

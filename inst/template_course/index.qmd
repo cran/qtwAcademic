@@ -1,0 +1,73 @@
+---
+title: "Title of Your Workshop Session"
+---
+
+Date: **Date and time**
+
+Room: **Location**
+
+Instructors: Instructor A, B, C
+
+------------------------------------------------------------------------
+
+::: callout-note
+## This workshop template
+
+This workshop template contains 4 pages: 
+
+- Home: `index.qmd` (this page)
+
+- About: `about.qmd`
+
+Two content pages
+
+- Page without code: `part_1_prep.qmd`
+
+- Page with R code: `part_2_eda.qmd`
+
+It is straightforward to add more content pages: you need to create a new `.qmd` file (or copy/paste the existing ones), then link the new page inside `_quarto.yml`. 
+:::
+
+
+::: callout-tip
+## Homepage of your workshop
+
+This is the **homepage** `index.qmd` for your workshop, so ideally it should contain some key information such as **time and place, instructors** and information of the course/workshop. 
+
+It should be easy to navigate.
+:::
+
+
+# Welcome!
+
+-   The goal of the workshop is to ... (*insert your message*)
+-   For example, introduce kep concepts in machine learning, such as regularisation.
+-   Workshop material can be found in the workshop [github repository](https://github.com).
+
+#### Learning Objectives
+
+At the end of the tutorial, participants will be able to
+
+-   understand key concepts for ... (*insert your message*)
+-   For example, training machine learning models such as regularisation.
+-   another objective
+
+#### Pre-requisites
+
+-   Basic familiarity with R
+-   Some other knowledge
+
+
+# Schedule
+
+::: callout-tip
+## Tabular schedule
+
+It can be useful to include a tabular schedule with links.
+:::
+
+
+|     Time      |                  Topic                   |    Presenter     |
+|:--------------:|:-------------------------------------:|:--------------:|
+| 9:00 - 10:30  | [Session 1: Preparation](part_1_prep.qmd) | Instructor A |
+| 10:45 - 12:00 | [Session 2: Exploratory Analysis](part_2_eda.qmd) | Instructor B, C |

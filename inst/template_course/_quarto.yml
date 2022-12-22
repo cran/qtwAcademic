@@ -1,0 +1,31 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Workshop Title"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: about.qmd
+        text: About
+    right:
+      - icon: github
+        href: https://github.com
+  sidebar:
+    style: "docked"
+    search: true
+    contents:
+      - part_1_prep.qmd
+      - part_2_eda.qmd
+  page-navigation: true
+
+format:
+  html:
+    theme: yeti
+    css: styles.css
+    toc: true
+
+editor: visual
+

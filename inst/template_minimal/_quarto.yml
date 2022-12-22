@@ -1,0 +1,31 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  page-navigation: true
+  title: "Hello :)"
+
+  page-footer:
+    left: "&copy; Copyright 2022, Author"
+    right: "This page is built with ❤️ and [Quarto](https://quarto.org/)."
+
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+
+      - href: projects/index.qmd
+        text: Projects
+
+      - href: about.qmd
+        text: About
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+
+

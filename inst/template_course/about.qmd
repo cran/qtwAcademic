@@ -1,0 +1,26 @@
+---
+title: "About"
+format: 
+  html:
+    code-fold: false
+    code-tools: false
+editor: visual
+---
+
+::: callout-tip
+## About page
+
+This page contains some elaborated background information about your workshop, or the instructors.
+:::
+
+*For example*: A central problem in machine learning is how to make an algorithm perform well not just on the training data, but also on new inputs. Many strategies in machine learning are explicitly designed to reduce this test error, possibly at the expense of increased training error. These strategies are collectively known as regularisation and they are instrumental for good performance of any kind of prediction or classification model, especially in the context of small data (many features, few samples).
+
+In the hands-on tutorial we will use R to perform an integrated analysis of multi-omics data with penalised regression.
+
+#### Contact
+
+Instructor A: contact
+
+Instructor B: contact
+
+Instructor C: contact
